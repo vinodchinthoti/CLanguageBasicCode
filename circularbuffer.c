@@ -12,7 +12,7 @@ struct bufferElement
 };
 typedef struct bufferElement node;
 node * head = NULL;
-
+/*This is the pointer to function of type node Creation*/
 node *createNode(int value);
 int menu();
 void intoBuffer();
